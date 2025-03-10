@@ -261,6 +261,18 @@
 
         
     }
+    #your-element-selector {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  position: relative; /* Make it the reference point for absolutely positioned children */
+}
+.slider_area {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%; /* Ensure the slider takes up full container height */
+}
+
 </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@latest/dist/vanta.net.min.js"></script>
@@ -270,7 +282,7 @@
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-<div id="your-element-selector" style="width: 100%; height: 100vh;">
+<div id="your-element-selector">
     <!-- header-start -->
     <header>
         <div class="header-area ">
