@@ -261,28 +261,16 @@
 
         
     }
-    #your-element-selector {
-  width: 100%;
-  height: 100vh; /* Full viewport height */
-  position: relative; /* Make it the reference point for absolutely positioned children */
-}
-.slider_area {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%; /* Ensure the slider takes up full container height */
-}
+  
 
 </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@latest/dist/vanta.net.min.js"></script>
+   
 </head>
 
 <body>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-<div id="your-element-selector">
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -342,7 +330,7 @@
             </div>
         </div>
     </div>
-</div>
+
     <!-- slider_area_end -->
 <!-- about_area_start  -->
 <div class="about_area black_bg" id="about">
@@ -759,18 +747,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             }
         }
     
-    VANTA.NET({
-      el: "#your-element-selector", // Selector for the element you want the animation in
-      mouseControls: true,          // Enable mouse control
-      touchControls: true,          // Enable touch control
-      gyroControls: false,          // Disable gyro control (not used here)
-      minHeight: 200.00,            // Minimum height of the element
-      minWidth: 200.00,             // Minimum width of the element
-      scale: 1.00,                  // Scaling factor
-      scaleMobile: 1.00,            // Scaling factor for mobile
-      color: 0xff0000,              // Red color for the net
-      backgroundColor: 0x0         // Black background
-    });
+
   </script>
 </body>
 
