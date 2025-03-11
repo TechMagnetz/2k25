@@ -1645,7 +1645,7 @@ h3 {
 
 /* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text span {
-  font-size: 20px;
+  font-size: 27px;
   font-weight: 400;
   color: #FF0000;
   font-family: "Electrolize", sans-serif;
@@ -1655,7 +1655,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 56, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text span {
-    font-size: 10px;
+    font-size: 17px;
   }
 }
 
